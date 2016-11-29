@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script src="http://fb.me/react-0.10.0.js"></script>
+    <script src="MYCOMPONENT2.js"></script>
+    <script src="script2.js"></script>
+  </head>
+
+  <body ng-app="fasterAngular">
+    <h1>Rápida renderização com ReactJs</h1>
+    <div ng-controller="mycontroller">
+        <input ng-model="framework"/>
+        <input ng-model="teste"/>
+        <hr>
+        <fast-ng framework="framework"></fast-ng>
+        <teste-ng teste="teste"></teste-ng>
+    </div>
+
+  </body>
+
+</html>
